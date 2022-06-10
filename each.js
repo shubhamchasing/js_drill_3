@@ -1,7 +1,7 @@
 const each = (elements = [], cb) => {
     
     if(elements.length === 0){
-        return [];
+        return;
     }
 
     for(let  index=0; index < elements.length; index++) {

@@ -6,7 +6,7 @@ const reduce = (elements = [], cb, startingValue) => {
     
     let index = 0
     let previousValue = startingValue
-    if (typeof(startingValue) === "undefined"){
+    if (startingValue === undefined){
         if (elements.length >= 1){    
         previousValue = elements[0]
     }
